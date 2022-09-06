@@ -1,0 +1,26 @@
+.portfolioView,
+.portfolioTabs {
+  display: flex;
+  align-items: center;
+}
+
+.portfolioView {
+  justify-content: center;
+  width: 100%;
+}
+
+.portfolioTabs {
+  justify-content: space-around;
+  width: 60%;
+  margin: auto;
+}
+
+.portfolioView img {
+  width: 33.333%;
+}
+
+@media screen and (max-width: 600px) {
+  .portfolioTabs {
+    width: 100%;
+  }
+}

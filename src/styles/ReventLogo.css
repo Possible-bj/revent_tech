@@ -1,0 +1,40 @@
+.logoFrame {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  position: relative;
+  width: 225px;
+}
+
+.logo {
+  align-self: flex-end;
+}
+
+.logoText {
+  align-self: flex-start;
+}
+
+.text {
+  align-self: flex-end;
+  color: #FCE82F;
+  margin-right: 42px;
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    width: 30px;
+  }
+
+  .logoFrame {
+    height: 60px;
+    width: 130px;
+  }
+
+  .text {
+    margin-right: 24px;
+  }
+
+  .logoText {
+    width: 100px;
+  }
+}

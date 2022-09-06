@@ -1,0 +1,48 @@
+.resumeFrame {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.resumeLeft,
+.resumeRight {
+  border-left: 5px solid #FCE82F;
+  padding-left: 10px;
+}
+
+.resumeLeft div:nth-child(1) {
+  margin-bottom: 20px;
+
+}
+
+.resumeLeft div:nth-child(2) {
+  margin-top: 20px;
+
+}
+
+.resumeRight div:nth-child(1) {
+  margin-bottom: 20px;
+
+}
+
+.resumeRight div:nth-child(2) {
+  margin-top: 20px;
+}
+
+/* .resumeLeft {}
+
+.resumeRight {} */
+
+.resumeYear {
+  line-height: 36.57px;
+}
+
+.resumeInstitution {
+  line-height: 26.57px;
+
+}
+
+.resumeInstitution {
+  line-height: 24.57px;
+}

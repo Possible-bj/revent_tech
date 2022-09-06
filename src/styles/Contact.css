@@ -1,0 +1,120 @@
+.contactIcons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  width: 60%;
+}
+
+.contactTop {
+  width: 100%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactTop div {
+  width: 48%;
+  height: 30px;
+  background-color: #fff;
+  position: relative;
+  border-radius: 6px;
+}
+
+.contactTop div input {
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  background-color: transparent;
+  left: auto;
+  border: none;
+  outline: none;
+  right: 0;
+}
+
+.contactTop label {
+  /* border: 1px solid red; */
+  color: #000;
+  width: 20%;
+  height: 100%;
+  font-weight: 600;
+  padding: 2px;
+  padding-left: 10px;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  bottom: 0;
+}
+
+
+.subjectInput {
+  height: 30px;
+  background-color: #fff;
+}
+
+.subjectInput label {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  font-weight: 600;
+  padding: 3px;
+  padding-left: 10px;
+}
+
+.subjectInput,
+.messageArea {
+  margin: 20px auto;
+  width: 100%;
+  border-radius: 6px;
+  position: relative;
+}
+
+.messageArea {
+  background-color: #fff;
+}
+
+.messageArea label {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  font-weight: 600;
+  padding: 3px;
+  padding-left: 10px;
+}
+
+.subjectInput input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  left: auto;
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+textarea {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  border-radius: 6px;
+  padding: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .contactIcons {
+    width: 100%;
+  }
+
+  .contactTop {
+    flex-direction: column;
+  }
+
+  .contactTop div {
+    width: 100%;
+    margin: 5px auto;
+  }
+}

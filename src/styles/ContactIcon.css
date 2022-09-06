@@ -1,0 +1,28 @@
+.contactIconFrame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  margin: 10px auto;
+  /* border: 1px solid red; */
+  width: 50px;
+}
+
+.icon:hover,
+.contactLink:hover,
+.contactInfo:hover {
+  cursor: pointer;
+}
+
+.contactLink {
+  color: white;
+  margin: 5px auto;
+}
+
+.contactInfo {
+  color: white;
+  margin: 5px auto;
+}
