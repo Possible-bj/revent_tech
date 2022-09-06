@@ -37,3 +37,9 @@ nav ul {
     padding-right: 0;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .linkText a {
+    font-size: 0.8rem;
+  }
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Button = ({ children, color, bg, width, height, borderRadius, font, size, fontWeight, margin, type }) => {
+const Button = ({ children, color, bg, width, height, borderRadius, font, size, fontWeight, margin, type, border, outline }) => {
   const styles = {
     color,
     borderRadius,
@@ -10,7 +10,9 @@ const Button = ({ children, color, bg, width, height, borderRadius, font, size, 
     fontFamily: font,
     fontSize: size,
     fontWeight,
-    margin
+    margin,
+    outline,
+    border,
   }
 
   return (
@@ -32,6 +34,8 @@ Button.defaultProps = {
   fontWeight: '700',
   margin: '10px auto',
   type: 'button',
+  outline: 'none',
+  border: 'none',
 };
 
 

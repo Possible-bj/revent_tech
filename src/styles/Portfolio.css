@@ -23,4 +23,12 @@
   .portfolioTabs {
     width: 100%;
   }
+
+  .portfolioView {
+    flex-direction: column;
+  }
+
+  .portfolioView img {
+    width: auto;
+  }
 }
