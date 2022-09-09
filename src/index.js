@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import "@fontsource/montserrat";
+import "@fontsource/poppins";
 import './index.css';
 import App from './App';
 

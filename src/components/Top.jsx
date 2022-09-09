@@ -32,8 +32,8 @@ const Top = () => {
         <div className='socialFrame'>
 
           {
-            socials.map(({ svg }) => (
-              <SocialCircle svg={svg} />
+            socials.map(({ svg }, index) => (
+              <SocialCircle key={index} svg={svg} />
             ))
           }
         </div>

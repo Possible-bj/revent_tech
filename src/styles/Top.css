@@ -18,13 +18,18 @@ p {
 }
 
 .topText h2 {
-  margin: 10px auto;
-  line-height: 43.54px;
+  margin: 10px auto 5px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 44px;
 }
 
 .topText p {
-  margin: 10px auto;
-  line-height: 27px;
+  margin: 5px auto 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
 }
 
 .topImg {

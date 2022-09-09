@@ -10,16 +10,16 @@ const Portfolio = () => {
       <SubHeader> Portfolio </SubHeader>
       <div className='portfolioFrame'>
         <div className='portfolioTabs'>
-          <Button bg={'#fff'} width={'60px'} margin='0' size={'.9rem'}> All </Button>
-          <Button bg={'transparent'} width={'60px'} color={'#fff'} margin='0' size={'.9rem'}> WebSite </Button>
-          <Button bg={'transparent'} width={'60px'} color={'#fff'} margin='0' size={'.9rem'}> CSS </Button>
-          <Button bg={'transparent'} width={'60px'} color={'#fff'} margin='0' size={'.9rem'}> MobileApp </Button>
-          <Button bg={'transparent'} width={'60px'} color={'#fff'} margin='0' size={'.9rem'}> GitHub </Button>
+          <Button bg={'#fff'} width={'60px'} margin='0' size={'.8rem'}> All </Button>
+          <Button bg={'transparent'} width={'60px'} color={'#fff'} margin='0' size={'.8rem'} font={'Montserrat'}> WebSite </Button>
+          <Button bg={'transparent'} width={'60px'} color={'#fff'} margin='0' size={'.8rem'} font={'Montserrat'}> CSS </Button>
+          <Button bg={'transparent'} width={'60px'} color={'#fff'} margin='0' size={'.8rem'} font={'Montserrat'}> MobileApp </Button>
+          <Button bg={'transparent'} width={'60px'} color={'#fff'} margin='0' size={'.8rem'} font={'Montserrat'}> GitHub </Button>
         </div>
         <div className='portfolioView'>
           {
-            Array.from({ length: 3 }).map((_) => (
-              <img src={portfolio} alt="" />
+            Array.from({ length: 3 }).map((_, index) => (
+              <img key={index} src={portfolio} alt="" />
             ))
           }
 

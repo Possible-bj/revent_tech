@@ -26,7 +26,7 @@ const Contact = () => {
           </div>
         </div>
         <div className='subjectInput'>
-          <label htmlfor="subject">Subject</label>
+          <label htmlFor="subject">Subject</label>
           <input type="text" id='subject' name='subject' />
         </div>
         <div className='messageArea'>

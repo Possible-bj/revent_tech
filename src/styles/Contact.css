@@ -53,7 +53,9 @@
 }
 
 .subjectInput label {
+  /* border: 1px solid red; */
   position: absolute;
+  width: 20%;
   top: 0;
   bottom: 0;
   font-weight: 600;
@@ -104,6 +106,10 @@ textarea {
   padding: 30px;
 }
 
+input {
+  border-radius: 6px;
+}
+
 @media screen and (max-width: 600px) {
   .contactIcons {
     width: 100%;
@@ -115,6 +121,29 @@ textarea {
 
   .contactTop div {
     width: 100%;
-    margin: 5px auto;
+    height: 40px;
+  }
+
+  .contactTop div:nth-child(1) {
+    margin: 15px auto;
+  }
+
+  .contactTop label,
+  .subjectInput label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding-left: 0;
+  }
+
+  .contactTop input,
+  .subjectInput input {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .subjectInput {
+    height: 40px;
   }
 }
